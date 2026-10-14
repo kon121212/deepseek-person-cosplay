@@ -1,0 +1,24 @@
+dsh-whale-persona 市场投稿包 — 文件校验清单
+生成时间: 2026-10-13
+
+文件数: 15
+
+以下为各文件的 SHA-256 与字节数：
+
+3f6824848335092785f021cf631f533fee4904869427229008d772d2b900d2d3     3470  快速开始.md
+aee2dbe99701343f4053ceef3a4e8b955b78fc53164d95f6cd84e18bb725af0a     6570  上架指南.md
+83be3b082ed71e72fee60e5cb56a63300ee9cc82e61a2e9b4222934ce8035b9d     1053  market-entry/条目模板.yml
+b1ab0d63b285726d674158ebd72e1bb88e0153085269cf53e078b7f713da54ee     2408  market-entry/make-entry.mjs
+4fe488c05f72cd8434daf4add4b7323a235d1aa630ff35b48543759d40dbc32b     1044  market-entry/PR-正文.md
+71264c3dd0859049e7e24243319c7dbf49c95f1256e7effb18c33c3828664f77     9746  npm-package/dsh-whale-persona-1.1.0.tgz
+d0f5a0910e1d34ce344ffeb14474c094291caff111de7a91d550e9c17a40e967       71  plugin/.gitignore
+4672622c1c6fee64e4659e0b39c98b0609856379eaaa0c29a48e5f05d9cf44fb      429  plugin/cordis.patch.yml
+f4c2d7b78ee3d56449af63d5da5d6cf942f26da45c534fb1603d9af947dfe7e3     2873  plugin/install.ps1
+33fc68ff428d41615f4c934d10fefcb58c828c802ff8e3dbefe0f0cf5c97f555     5898  plugin/lib/index.js
+a84a2a6de4114dea6c7c3bde1ac24dc515a8981c1dd448497f3f5d0b2f5dbbbe     1087  plugin/LICENSE
+f2aff113145991a81bce8fec28aef9ad11334028bbf17b4f1be2598491107adc      986  plugin/package.json
+096c129437545f752da896729b15d8617f13db59b09bb2d7f426ac21138043b7     3030  plugin/persona.md
+36fa56d7f794e90d7c908e2a5e36f1c832f17342cc925c8340cabcbdfa4ef479     6232  plugin/README.md
+a88198d8bbc10dba824a879a8035d7d574bd9a6a0857c196a520ca1d5b3c32f4     1636  plugin/uninstall.ps1
+
+共 15 个文件。

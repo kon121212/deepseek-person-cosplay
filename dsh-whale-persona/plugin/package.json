@@ -1,0 +1,46 @@
+{
+  "name": "dsh-whale-persona",
+  "version": "1.1.0",
+  "description": "DSH 人设插件：让鲸鱼娘·大肥鱼（DeepSeek 社区二创形象）成为每个会话的固定角色设定，支持傲娇/关心程度与称呼的可调参数，纯本地、零联网。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "persona",
+    "prompt",
+    "whale"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "persona.md",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "install.ps1",
+    "uninstall.ps1"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "compatibility": {
+      "dshReleases": {
+        "0.2.0-rc.2": "compatible"
+      }
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/schemastery": ">=3.18.2"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/schemastery": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "license": "MIT"
+}

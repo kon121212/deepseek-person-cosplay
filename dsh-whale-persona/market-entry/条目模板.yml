@@ -1,0 +1,13 @@
+# DSH 插件市场条目模板
+# 用法：
+#   1) 把下面的 <你的GitHub用户名> 全部替换成你的实际用户名（仓库名如果不是 dsh-whale-persona 也一并替换）
+#   2) 另存为 <你的GitHub用户名>__dsh-whale-persona.yml
+#   3) 放进 awesome-dsh-plugin 仓库的 data/plugins/ 目录（文件名必须严格是 <owner>__<repo>.yml）
+# 或者直接跑：node make-entry.mjs <你的GitHub用户名> dsh-whale-persona
+
+url: https://github.com/<你的GitHub用户名>/dsh-whale-persona
+name: <你的GitHub用户名>/dsh-whale-persona
+category: identity
+description:
+  en: 'Injects a fixed character persona into the system prompt of every session, with adjustable tsundere level, care level, self name and user title. The persona text is read from a local Markdown file and the plugin makes no network requests.'
+  zh: '为每个会话的 system prompt 注入固定角色人设，可调傲娇程度、关心程度、自称与对用户的称呼。人设文本取自本地 Markdown 文件，插件不发起任何网络请求。'

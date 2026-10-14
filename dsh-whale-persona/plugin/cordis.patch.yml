@@ -1,0 +1,12 @@
+# dsh-whale-persona —— bundle patch 层
+# 把本插件插入 DSH profile 的配置树；下面的 config 是默认值，
+# 想改参数请在 %USERPROFILE%\.dsh\profiles\desktop\cordis.patch.yml 里再写一条同 id 的覆盖项。
+- insert:
+    - id: dsh-whale-persona
+      name: dsh-whale-persona
+      config:
+        enabled: true
+        tsundere: 低
+        care: 高
+        selfName: 本鲸
+        userTitle: 你
